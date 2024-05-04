@@ -60,7 +60,7 @@ nav ul li a, nav ul li a:visited, .hero-container p {
     font-size: 18px;
 }
 
-.info h2 {
+.info h2, .quote-author {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -79,7 +79,6 @@ nav ul li a, nav ul li a:visited, .hero-container p {
     gap: 50px;
 }
 
- 
 
 .info-image {
     width: 180px;
@@ -88,6 +87,24 @@ nav ul li a, nav ul li a:visited, .hero-container p {
     border-radius: 10px;
     margin-bottom: 20px;
 }
-.text {
+.info-text {
     width: 180px;
+}
+
+.quote {
+    background-color: #E5E7EB;
+    padding: 100px 490px 100px 490px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    color: #1F2937;
+    width: 800px;
+}
+
+.quote-author {
+    display: flex;
+    justify-content: flex-end;
 }
