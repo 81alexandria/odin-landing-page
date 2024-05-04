@@ -60,7 +60,7 @@ nav ul li a, nav ul li a:visited, .hero-container p {
     font-size: 18px;
 }
 
-.info h2, .quote-author {
+.info h2 {
     font-size: 36px;
     font-weight: 900;
     color: #1F2937;
@@ -107,4 +107,34 @@ nav ul li a, nav ul li a:visited, .hero-container p {
 .quote-author {
     display: flex;
     justify-content: flex-end;
+    font-size: 24px;
+    font-weight: 900;
+    color: #1F2937;
+}
+
+.cta-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:  50px 0 50px 0;
+}
+
+.cta {
+    background-color: #3882F6;
+    color: #fff;
+    padding:  50px;
+    width: 1000px;
+    border-radius: 20px; 
+    display: flex;
+    justify-content: space-between;
+}
+
+.cta button {
+    background-color: #3882F6;;
+     color: #F9FAF8;
+     border: 3px #F9FAF8 solid;
+     font-size: 18px;
+     font-weight: 700;
+     padding: 0 30px 0 30px;
+     border-radius: 10px;
 }
