@@ -1,0 +1,46 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', Arial, sans-serif;
+}
+
+header  {
+    background-color: #1F2937;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 380px 20px 380px;
+}
+
+.logo {
+    /*background-color: chartreuse;*/
+    color: #F9FAF8;
+    font-size: 24px;
+    font-weight: 900;
+    
+}
+
+nav ul {
+    display: flex;
+    gap: 20px;
+   
+}
+
+nav ul li {
+    list-style-type: none;
+}
+
+nav ul li a {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.hero {
+    background-color: #1F2937;
+    padding: 100px 380px 100px 380px;
+    display: flex;
+}
+
+.info-container {
+    display: flex;
+}
