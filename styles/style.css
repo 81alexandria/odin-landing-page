@@ -30,17 +30,64 @@ nav ul li {
     list-style-type: none;
 }
 
-nav ul li a {
+nav ul li a, nav ul li a:visited, .hero-container p {
     font-size: 18px;
     color: #E5E7EB;
+    text-decoration: none;
 }
+
 
 .hero {
     background-color: #1F2937;
     padding: 100px 380px 100px 380px;
     display: flex;
+    gap: 20px
+}
+.hero h1 {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    width: 280px;
+}
+
+.hero button{
+    background-color: #3882F6;
+    color: #F9FAF8;
+    border: 0;
+    padding: 8px 30px 8px 30px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.info h2 {
+    font-size: 36px;
+    font-weight: 900;
+    color: #1F2937;
+    text-align: center;
+    padding: 40px 0 40px 0;
+
 }
 
 .info-container {
     display: flex;
+   margin-bottom: 100px;
+    
+    justify-content: center;
+    align-items:center;
+    text-align: center;
+    gap: 50px;
+}
+
+ 
+
+.info-image {
+    width: 180px;
+    height: 180px;
+    border: 4px #3882F6 solid;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+.text {
+    width: 180px;
 }
